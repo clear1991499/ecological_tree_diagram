@@ -1,6 +1,7 @@
 ```mermaid
 graph LR
 
+classDef rank fill:#0000cc, color:#eeeeee
 classDef research fill:#cc5555, color:#eeeeee
 classDef new fill:#5555cc, color:#eeeeee
 classDef hide fill:#666666, color:#eeeeee
@@ -8,13 +9,13 @@ classDef _order fill:#cc0000, color:#eeeeee
 
 Or---subOr---iOr---supFa---Fa---Ge---Sp
 
-Or["目"]
-subOr["亜目"]
-iOr["下目"]
-supFa["上科"]
-Fa["科"]
-Ge["属"]
-Sp["種"]
+Or["目"]:::rank
+subOr["亜目"]:::rank
+iOr["下目"]:::rank
+supFa["上科"]:::rank
+Fa["科"]:::rank
+Ge["属"]:::rank
+Sp["種"]:::rank
 
 a---aa---aaa---aaaa---aaaaa---aaaaaa---aaaaaaa
     aa---aab---aaba---aabaa---aabaaa---aabaaaa
